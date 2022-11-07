@@ -1,0 +1,20 @@
+body {
+  background-color: antiquewhite;
+}
+
+.card-img-top {
+  object-fit: cover;
+  /* width: 200px;
+  height: 200px; */
+}
+
+h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* .card {
+  height: 300px;
+  width: 300px;
+} */
