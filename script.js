@@ -109,10 +109,7 @@ modal.addEventListener("click", () => {
   modalContent.innerHTML = "";
   for (let i = 0; i < arrOfSongs.length; i++) {
     let currentSong = arrOfSongs[i];
-    if (arrOfIndexes[i] != "") {
-      let counter = arrOfIndexes[i];
-      modalContent.innerHTML += `<li>${currentSong}</li>`;
-    } else modalContent.innerHTML += `<li>${currentSong}</li>`;
+    modalContent.innerHTML += `<li>${currentSong}</li>`;
   }
 });
 
